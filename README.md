@@ -2,16 +2,16 @@
 This project analyzes two datasets on colon cancer, focusing on exploratory data analysis, data preprocessing, feature engineering, and predictive modeling using Logistic Regression and Random Forest. This README provides a step-by-step guide to each part of the code and its functionality.
 
 ## Table of Content
-*Project Overview
-Dependencies
-Data Loading and Initial Exploration
-Data Visualization
-Data Merging
-Data Preprocessing
-Feature Engineering
-Train-Test Split
-Model Training
-Hyperparameter Tuning
-Model Evaluation
-Feature Importance Analysis
-Explainability using SHAP
+1. Project Overview
+2. Dependencies
+3. Data Loading and Initial Exploration
+4. Data Visualization
+5. Data Merging
+6. Data Preprocessing
+7. Feature Engineering
+8. Train-Test Split
+9. Model Training
+10. Hyperparameter Tuning
+11. Model Evaluation
+12. Feature Importance Analysis
+13. Explainability using SHAP
