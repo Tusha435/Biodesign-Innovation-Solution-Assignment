@@ -15,3 +15,16 @@ This project analyzes two datasets on colon cancer, focusing on exploratory data
 11. Model Evaluation
 12. Feature Importance Analysis
 13. Explainability using SHAP
+
+## 1. Project Overview
+The project aims to identify important factors and build predictive models for colon cancer diagnosis based on patients' clinical data and tumor characteristics. We use two datasets, dataset_1 and dataset_2, which contain both numerical and categorical features, for a comprehensive analysis and modeling process.
+
+## 2. Dependencies
+Pandas
+matplotlib
+seaborn
+sklearn
+shap
+
+Install them using:
+
