@@ -1,31 +1,3 @@
-# Colon Cancer Prediction Analysis
-This project analyzes two datasets on colon cancer, focusing on exploratory data analysis, data preprocessing, feature engineering, and predictive modeling using Logistic Regression and Random Forest. This README provides a step-by-step guide to each part of the code and its functionality.
-
-## Table of Content
-1. Project Overview
-2. Dependencies
-3. Data Loading and Initial Exploration
-4. Data Visualization
-5. Data Merging
-6. Data Preprocessing
-7. Feature Engineering
-8. Train-Test Split
-9. Model Training
-10. Hyperparameter Tuning
-11. Model Evaluation
-12. Feature Importance Analysis
-13. Explainability using SHAP
-
-## 1. Project Overview
-The project aims to identify important factors and build predictive models for colon cancer diagnosis based on patients' clinical data and tumor characteristics. We use two datasets, dataset_1 and dataset_2, which contain both numerical and categorical features, for a comprehensive analysis and modeling process.
-
-## 2. Dependencies
--Pandas
--matplotlib
--seaborn
--sklearn
--shap
-
 # Colon Cancer Analysis and Classification
 
 This repository provides an end-to-end workflow for analyzing, preprocessing, and building classification models on colon cancer datasets. We use Python libraries such as `pandas`, `matplotlib`, `seaborn`, `sklearn`, and `shap` for data manipulation, visualization, machine learning, and feature importance interpretation.
@@ -57,3 +29,16 @@ Install the required packages:
 ```bash
 pip install pandas matplotlib seaborn scikit-learn shap
 
+## Data Loading and Exploration
+import pandas as pd
+
+# Load the datasets
+dataset_1 = pd.read_csv('dataset_1_colon_cancer.csv')
+dataset_2 = pd.read_csv('dataset_2_colon_cancer.csv')
+
+# Display first few rows and basic info
+dataset_1_head = dataset_1.head()
+dataset_1_info = dataset_1.info()
+
+dataset_2_head = dataset_2.head()
+dataset_2_info = dataset_2.info()
